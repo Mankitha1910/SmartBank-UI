@@ -7,10 +7,10 @@ function updateBalance() {
   balanceEl.textContent = `₹${balance.toFixed(2)}`;
 }
 
-// Initial balance
+
 updateBalance();
 
-// Deposit money
+
 depositBtn.addEventListener("click", () => {
   const depositInput = document.getElementById("deposit");
   const depositAmount = parseFloat(depositInput.value);
@@ -24,7 +24,7 @@ depositBtn.addEventListener("click", () => {
   }
 });
 
-// Withdraw money
+
 withdrawBtn.addEventListener("click", () => {
   const withdrawInput = document.getElementById("withdraw");
   const withdrawAmount = parseFloat(withdrawInput.value);
