@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartBank App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <div class="phone-screen">
+      <div class="app-header">
+        <img src="https://img.icons8.com/fluency/48/bank-building.png" alt="bank icon">
+        <h2>SmartBank</h2>
+        <p>Manage your money with ease</p>
+      </div>
+
+      <!-- Deposit -->
+      <div class="input-section">
+        <label for="deposit">DEPOSIT AMOUNT</label>
+        <input type="number" id="deposit" placeholder="Enter amount to deposit" min="1" step="1">
+        <button id="depositBtn" class="btn deposit">DEPOSIT</button>
+      </div>
+
+      <!-- Withdraw -->
+      <div class="input-section">
+        <label for="withdraw">WITHDRAW AMOUNT</label>
+        <input type="number" id="withdraw" placeholder="Enter amount to withdraw" step="0.01" min="0.01">
+        <button id="withdrawBtn" class="btn withdraw">WITHDRAW</button>
+      </div>
+
+      <!-- Balance -->
+      <div class="balance-section">
+        <p>CURRENT BALANCE</p>
+        <h1 id="balance">₹0.00</h1>
+      </div>
+    </div>
+  </div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
