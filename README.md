@@ -18,8 +18,8 @@ SmartBank is a simple and interactive banking application built using **HTML**, 
 
 ## 🖼️ Preview / Demo
 
-👉 [Watch the demo here](YOUR_VIDEO_LINK_HERE)
-👉 [Watch the demo here](YOUR_VIDEO_LINK_HERE)
+👉 https://mankitha1910.github.io/SmartBank-UI/
+👉 https://drive.google.com/file/d/1G3-52CjhU0GRfq27OzXA6PiHtxtp9-la/view?usp=sharing
 ---
 
 ## 🛠️ Technologies Used
