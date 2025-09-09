@@ -55,5 +55,4 @@ SmartBank-App/
 
 
 
-```bash
-git clone https://github.com/yourusername/SmartBank-App.git
+
